@@ -1,0 +1,10 @@
+# installing laravel installer at global with composer
+$ composer global require "laravel/installer"
+
+# it has been installed in: 
+/home/jmr/.config/composer
+
+# using it
+## create a laravel project 
+$ laravel new blog 
+

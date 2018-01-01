@@ -1,0 +1,15 @@
+
+  *** Syntax error or access violation: 1071 Specified key was too long
+
+  En:  app/Providers/AppServiceProvider.php
+ 
+  agregamos: 
+ 
+   use Illuminate\Support\Facades\Schema;
+
+   ...
+
+   public function boot()
+   {
+	 Schema::defaultStringLength(191);
+   }
